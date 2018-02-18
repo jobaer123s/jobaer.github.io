@@ -1,0 +1,322 @@
+*{
+	margin: 0;
+	padding: 0;
+	outline: 0;
+}
+
+
+/*logo part start*/
+
+
+.logo{
+	margin-top: 50px;
+}
+.logoimage img{
+	float: left;
+	height: 163px;
+	width: 167px;
+	margin-left: 40px;
+	background: #1c711c;
+	padding: 15px;
+	border-radius: 15px;
+}
+.logotext{
+	float: left
+}
+.logotext h1{
+	
+	padding-left: 30px;
+	color: #333;
+	font-size: 3em;
+	text-shadow: 0px 0px 1px rgba(0,0,0,0.3);
+	font-weight: 600;
+}
+.logotext p{
+	font-size:20px;
+	font-weight: 500;
+	padding-left: 30px
+}
+
+/*logo part end*/
+
+
+/*main pasrt start*/
+
+
+.time{
+	margin-top: 40px;
+	background-color: #1c711c;
+	color: #fff;
+	padding-top: 10px;
+	margin-left: 23px;
+	border-radius: 10px 10px 0px 0px;
+	 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.right-time{
+	float: right
+}
+.time h5 {
+	margin: 0;
+	font-size: 17px;
+	line-height: 27px;
+	/* padding: 10px; */
+	padding-bottom: 10px;
+}
+
+.right-time h5{
+	float: left;
+	padding-top: 10px;
+	cursor: pointer
+}
+.right-time .fa-angle-down{
+	font-size: 27px;
+	margin-top: 9px;
+	margin-left: 10px;
+	cursor: pointer
+}
+
+/*table start*/
+
+
+.table{
+	margin-left: 23px;
+	border: 2px solid #e5f1e5;
+	width: 644px;
+}
+.color{
+	background: #e8f4e8
+}
+
+/*cmnt part*/
+
+
+.left-cmnt {
+	background: #1c711c;
+	width: 645px;
+	margin-left: 23px;
+	margin-top: 40px;
+	color: #fff;
+	border-radius: 10px 10px 0px 0px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	padding: 5px;
+}
+.left-cmnt h3{
+	font-size: 17px;
+	padding-left: 10px;
+}
+.right-cmnt textarea {
+	background: #e8f4e8;
+	width: 99%;
+	margin-left: 23px;
+	color: #000;
+	/* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+	padding: 12px;
+	margin-top: 0px;
+	border: 1px solid #ccc;
+	height: 103px;
+}
+
+.btn button {
+	padding: 10px 30px;
+	margin-left: 9px;
+	background-color: #1c711c;
+	color: #fff;
+	border: 0;
+	border-radius: 5px 5px 0px 0px;
+	margin-top: 3px;
+}
+
+
+
+/*search part*/
+
+.full-search {
+	padding-top: 30px;
+	background: #1c711c;
+	height:150px;
+	width: 300px;
+	margin-top: 40px;
+	margin-left: 40px;
+	border-radius: 10px 10px 0px 0px;
+	 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.full-search h4{
+	padding-left: 30px;
+	font-weight: bold;
+	color: #fff
+	
+}
+.inpu {
+	border: 1px solid;
+	/* width: 248px; */
+	/* margin-left: 30px; */
+	background: #fff;
+	/* padding: 0 10px; */
+	margin: 0 28px;
+	border-radius: 3px;
+}
+input{
+	padding: 10px 20px;
+	border: none;
+}
+.inpu .fa-calendar-alt{
+	color: #1c711c
+}
+
+/*namaj part*/
+
+.tablenamaj{
+	margin-left: 40px;
+	border: 2px solid #e5f1e5;
+	width: 300px;
+	border-radius: 10px;
+	
+}
+.tablenamaj td{
+	padding: 7px
+}
+.tablenamaj th{
+	padding: 7px;
+}
+
+.namaj {
+	background: #1c711c;
+	width: 300px;
+	margin-left: 40px;
+	margin-top: 40px;
+	color: #fff;
+	border-radius: 10px 10px 0px 0px;
+	 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/*rojar niyot*/
+
+
+.left-roja{
+	background: #1c711c;
+	width: 300px;
+	margin-left: 40px;
+	margin-top: 40px;
+	color: #fff;
+	border-radius: 10px 10px 0px 0px;
+	 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	padding: 5px;
+}
+.left-roja h3{
+	font-size: 17px;
+	padding-left: 10px;
+}
+.right-roja{
+	background: #e8f4e8;
+	width: 300px;
+	margin-left: 40px;
+	color: #000;
+	 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	padding: 12px;
+}
+.right-roja h2{
+	font-size: 18px
+}
+
+
+/*iftarer niyot*/
+
+.left-iftar{
+	background: #1c711c;
+	width: 300px;
+	margin-left: 40px;
+	margin-top: 40px;
+	color: #fff;
+	border-radius: 10px 10px 0px 0px;
+	 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	padding: 5px;
+}
+.left-iftar h3{
+	font-size: 17px;
+	padding-left: 10px;
+}
+.right-iftar{
+	background: #e8f4e8;
+	width: 300px;
+	margin-left: 40px;
+	color: #000;
+	 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	padding: 12px;
+}
+.right-iftar h2{
+	font-size: 18px
+}
+
+
+/*hadis part*/
+
+
+.left-hadis{
+	background: #1c711c;
+	width: 300px;
+	margin-left: 40px;
+	margin-top: 40px;
+	color: #fff;
+	border-radius: 10px 10px 0px 0px;
+	 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	padding: 5px;
+}
+.left-hadis h5{
+	font-size: 17px;
+	padding-left: 10px;
+}
+.right-hadis{
+	background: #e8f4e8;
+	width: 300px;
+	margin-left: 40px;
+	color: #000;
+	 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	padding: 12px;
+}
+.right-hadis h2{
+	font-size: 18px
+}
+
+/*user comments*/
+
+.user{
+	margin-left: 50px
+}
+.user-icon .fa-calendar-alt{
+	font-size: 40px;
+	margin-right: 14px;
+	margin-top: 10px;
+}
+.user-icon h1 {
+	background: #1c711c;
+	width: 660px;
+	margin-top: 40px;
+	color: #fff;
+	border-radius: 10px 10px 0px 0px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	padding: 12px;
+	font-size: 24px;
+	margin-bottom: 30px
+}
+
+.user-icon span{
+	font-size: 20px
+}
+
+.user-icon p {
+	font-size: 20px;
+	background: #e8f4e8;
+	color: #000;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	padding: 12px;
+	padding-top: 21px;
+	margin-top: 20px;
+}
+
+/*footer section*/
+
+.foot{
+	text-align: center;
+	margin-top: 30px;
+	background-color: azure
+}
